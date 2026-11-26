@@ -1,4 +1,4 @@
-# MiRo GTA 6 Special Edition v1.5
+# MiRo GTA 6 Special Edition v1.6
 
 **All-in-One Story Walkthrough & Completion Edition** — an unofficial, independent gaming companion by MiRo Digital Tools. Not affiliated with Rockstar Games. Gameplay claims and payouts are reported research, not guarantees.
 
@@ -16,8 +16,8 @@ Export JSON from your old standalone guide (Notes & backup) and import it into t
 
 ## Release scope
 
-Quiet usability update: general SCOOP guide moved to Loot Atlas; direct named links and return navigation added; all v1.4 gameplay data retained unchanged. Chapter 3 unlock and Port Gellhorn cache are guide-backed; exact map match and item inventory are not confirmed. No new cash reward or weapon identities are asserted.
+Optional Support MiRo section with direct verified PayPal and Buy Me a Coffee links, Facebook links and a link to the existing MyBingo support page for Maya and GCash. All 12 gameplay modules and progress data unchanged. The GTA-themed QR artwork is intentionally withheld pending exact comparison with original approved QR payloads. Payment services require internet.
 
 ## QA status
 
-Static checks and simulated navigation/service-worker tests passed. Local Chromium navigation was blocked by environment policy; actual browser installation, offline reload and responsive interaction still require testing. The protected data encoding is reversible, not a security boundary. No developer source or user backups should be published.
+Static checks and simulated service-worker tests passed; the original app scripts and gameplay data match v1.5 exactly. This is a limited links-only release. Original QR payload comparison must pass before publishing the new artwork. Local Chromium navigation was blocked by environment policy; actual browser installation, offline reload and responsive interaction still require testing. The protected data encoding is reversible, not a security boundary. No developer source or user backups should be published.
