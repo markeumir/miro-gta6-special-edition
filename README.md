@@ -16,8 +16,8 @@ Export JSON from your old standalone guide (Notes & backup) and import it into t
 
 ## Release scope
 
-Optional Support MiRo section with direct verified PayPal and Buy Me a Coffee links, Facebook links and a link to the existing MyBingo support page for Maya and GCash. All 12 gameplay modules and progress data unchanged. The GTA-themed QR artwork is intentionally withheld pending exact comparison with original approved QR payloads. Payment services require internet.
+Optional Support MiRo section with approved supplied artwork, direct support links, and save/open image controls. All 12 gameplay modules and progress data unchanged. The support artwork is cached offline; payment services require internet.
 
 ## QA status
 
-Static checks and simulated service-worker tests passed; the original app scripts and gameplay data match v1.5 exactly. This is a limited links-only release. Original QR payload comparison must pass before publishing the new artwork. Local Chromium navigation was blocked by environment policy; actual browser installation, offline reload and responsive interaction still require testing. The protected data encoding is reversible, not a security boundary. No developer source or user backups should be published.
+Static checks and simulated service-worker tests passed; the original app scripts and gameplay data match v1.5 exactly. Support artwork is the exact owner-approved supplied file; both QR codes decode and pass payment-format checksum checks. Owner confirmed the artwork and directed publication. Independent comparison against MyBingo source payloads was unavailable; verify the recipient in the payment app before sending. Local Chromium navigation was blocked by environment policy; actual browser installation, offline reload and responsive interaction still require testing. The protected data encoding is reversible, not a security boundary. No developer source or user backups should be published.

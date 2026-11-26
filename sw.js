@@ -1,8 +1,8 @@
 /* MiRo GTA 6 Special Edition — offline app shell v1.6 */
 'use strict';
 const PREFIX = 'miro-gta6-se-pwa-';
-const CACHE = PREFIX + '1.6';
-const SHELL = ['index.html','manifest.webmanifest','pwa.js','icon-192.png','icon-512.png','icon-maskable.png','apple-touch-icon.png'];
+const CACHE = PREFIX + '1.6-support-r2';
+const SHELL = ['index.html','manifest.webmanifest','pwa.js','icon-192.png','icon-512.png','icon-maskable.png','apple-touch-icon.png','assets/miro-gta6-support.jpg'];
 const scope = new URL(self.registration.scope);
 const urlFor = p => new URL(p,scope).href;
 self.addEventListener('install', event => {
