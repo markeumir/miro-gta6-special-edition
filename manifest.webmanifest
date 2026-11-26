@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "MiRo GTA 6 Special Edition",
+  "short_name": "MiRo GTA 6",
+  "description": "Unofficial GTA VI story, loot and completion companion by MiRo Digital Tools.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#160d23",
+  "theme_color": "#160d23",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
