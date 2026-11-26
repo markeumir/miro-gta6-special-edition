@@ -1,7 +1,7 @@
-/* MiRo GTA 6 Special Edition — offline app shell v1.4 */
+/* MiRo GTA 6 Special Edition — offline app shell v1.5 */
 'use strict';
 const PREFIX = 'miro-gta6-se-pwa-';
-const CACHE = PREFIX + '1.4';
+const CACHE = PREFIX + '1.5';
 const SHELL = ['index.html','manifest.webmanifest','pwa.js','icon-192.png','icon-512.png','icon-maskable.png','apple-touch-icon.png'];
 const scope = new URL(self.registration.scope);
 const urlFor = p => new URL(p,scope).href;
