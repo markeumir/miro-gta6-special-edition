@@ -1,23 +1,19 @@
-# MiRo GTA 6 Special Edition v1.6
+# MiRo GTA 6 Special Edition v1.7
 
-**All-in-One Story Walkthrough & Completion Edition** — an unofficial, independent gaming companion by MiRo Digital Tools. Not affiliated with Rockstar Games. Gameplay claims and payouts are reported research, not guarantees.
-
-## Hosting on GitHub Pages
-
-Upload the contents of this folder (not the enclosing directory) to the root of `markeumir/miro-gta6-special-edition` on `main`. Enable Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save. Production domain: https://gta6.markeumir.xyz/ (preserve CNAME). Do not upload the developer edition, backup files or recovery packages to this public repository.
-
-## Install and use
-
-Open the HTTPS site in a supported browser. Use Install app or the browser's install/add-to-home-screen menu. On iPhone/iPad use Safari's Share → Add to Home Screen. Allow the initial online load and offline setup to finish before disconnecting. External guides, images and maps need internet. The app does not import PS5 saves.
-
-## Preserve progress
-
-Export JSON from your old standalone guide (Notes & backup) and import it into the PWA. Browser local storage is origin-specific and not synced across devices. The app retains the original storage key and backup format. Export periodically.
+**All-in-One Story Walkthrough & Completion Edition** — unofficial independent companion by MiRo Digital Tools.
 
 ## Release scope
 
-Optional Support MiRo section with approved supplied artwork, direct support links, and save/open image controls. All 12 gameplay modules and progress data unchanged. The support artwork is cached offline; payment services require internet.
+Fresh sessions start at Prologue with zero personal progress. Returning sessions retain the existing local storage key and JSON format. Story Walkthrough follows the selected current chapter on launch; the Chapter 3 cache shortcut only displays when browsing Chapter 3. Refresh App checks for PWA updates and reloads without clearing personal data. Reset browsing filters clears transient searches, filters and expanded task cards and returns to Dashboard, without changing saved chapter, notes, completion or planning settings. Numbered source links use Link #01, Link #02, etc.; URLs and source numbers are unchanged. Existing support artwork and donation links are unchanged.
 
-## QA status
+## Install and preserve progress
 
-Static checks and simulated service-worker tests passed; the original app scripts and gameplay data match v1.5 exactly. Support artwork is the exact owner-approved supplied file; both QR codes decode and pass payment-format checksum checks. Owner confirmed the artwork and directed publication. Independent comparison against MyBingo source payloads was unavailable; verify the recipient in the payment app before sending. Local Chromium navigation was blocked by environment policy; actual browser installation, offline reload and responsive interaction still require testing. The protected data encoding is reversible, not a security boundary. No developer source or user backups should be published.
+Open https://gta6.markeumir.xyz/ via HTTPS. Install via browser menu where supported. Export JSON periodically in Notes & backup; local storage is origin-specific. Never clear site data simply to update. The Reset all progress command is destructive and requires confirmation. External guides, maps and payment services require internet.
+
+## Hosting
+
+Publish only the PWA distribution files to markeumir/miro-gta6-special-edition main. Preserve CNAME, manifest identity and app icons. Keep the Developer Edition and recovery package private.
+
+## QA
+
+See private QA results for actual test evidence. Protected HTML encoding is reversible. No change to gameplay claims or research.
